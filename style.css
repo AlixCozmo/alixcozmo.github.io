@@ -20,7 +20,7 @@ button {
           text-transform: uppercase;
           transition: 0.8s;
           background-size: 200% auto;
-          color: white;            
+          color: black;            
           box-shadow: 0 0 20px #eee;
           border-radius: 10px;
           display: block;
