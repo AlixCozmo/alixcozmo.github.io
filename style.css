@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #E8E6E3;
+  color: #FFFFFF;
 }
 button {
   background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)
