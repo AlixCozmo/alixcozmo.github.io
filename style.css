@@ -22,8 +22,8 @@ button {
           color: #FFFFFF;
           box-shadow: 0 0 20px #DA22FF;
           border-radius: 10px;
-          display: block;
           border:1px solid #99939300;
+          vertical-align: top;
     }
  button:hover {
  background-position: right center; /* change the direction of the change here*/
