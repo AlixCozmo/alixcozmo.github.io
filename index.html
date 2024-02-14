@@ -1,31 +1,82 @@
 <!DOCTYPE html>
-<html>
 <link rel="stylesheet" href="style.css">
-<body>
 <style>
-  body {
-  padding: 25px;
-  background-color: #50575A;
-  color: #FFFFFF;
-  font-size: 25px;
-  }
-   a {display: inline-block}
+    body {
+        padding: 25px;
+        background-color: #262626;
+        color: #FFFFFF;
+        font-size: 25px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        float: left;
+    }
+
+        li a {
+            display: block;
+            padding: 8px;
+        }
+
+    a {
+        display: inline-block;
+        color: rgba(255, 255, 255, 0.8);
+        background: #3085d6;
+        transition: 0.5s;
+    }
+    body {
+        text-align: center;
+        vertical-align: middle;
+    }
+    .p3 {
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+    a:link {
+        color: lightseagreen;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:visited {
+        color: lightseagreen;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:hover {
+        color: black;
+        background-color: transparent;
+        text-decoration: underline;
+        color: white;
+        text-shadow: 0 5px 15px #afe0f5;
+    }
 </style>
+<html>
 <body>
-<h1>Hi there! Welcome to my website!</h1>
-<p>I'm Alix Cozmo.</p>
-<p>I do stuff. Most of the things I've made are available on my Github</p>
+<ul>
+  <li><p class="p3"><a href="index.html" style="text-decoration:none">Home</a></li></p>
+  <li><p class="p3"><a href="blog.html" style="text-decoration:none">Blog</a></li></p>
+  <li><p class="p3"><a href="about.html" style="text-decoration:none">About</a></li></p>
+</ul>
+<div class="FUCK">
+    <h1>Hi there! Welcome to my website!</h1>
+    <p>I'm Alix Cozmo.</p>
+    <p>I do stuff. Most of the things I've made are available on my Github</p>
 </body>
 <div class="button">
-<a href="https://github.com/AlixCozmo">
-    <button>Visit my Github</button>
-</a>
-<a href="https://www.twitch.tv/alixcozmo">
-    <button>My Twitch</button>
-</a>
-  <a rel="me" href="https://mastodon.social/@alixcozmo">
-    <button>My Mastodon</button>
-</a>
+    <a href="https://github.com/AlixCozmo">
+        <button>Visit my Github</button>
+    </a>
+    <a href="https://www.twitch.tv/alixcozmo">
+        <button>My Twitch</button>
+    </a>
+    <a rel="me" href="https://mastodon.social/@alixcozmo">
+        <button>My Mastodon</button>
+    </a>
+</div>
 </div>
 <p>Blog is coming soon!™</p>
 </html>

@@ -7,26 +7,46 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /*align-items: center;*/
+  /*justify-content: center;*/
+}
+.FUCK {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
 }
 button {
-  background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)
+    background-image: linear-gradient(to right, #9309ae 0%, #6607b6 51%, #9309ae 100%)
+}
+button2 {
+    background-image: linear-gradient(#9309ae 0%, #6607b6 51%, #9309ae 100%)
 }
 button {
-          margin: 10px;
-          padding: 15px 45px;
-          text-align: center;
-          transition: 0.8s;
-          background-size: 200% auto;
-          color: #FFFFFF;
-          box-shadow: 0 0 20px #DA22FF;
-          border-radius: 10px;
-          border:1px solid #99939300;
-          vertical-align: top;
-    }
- button:hover {
- background-position: right center; /* change the direction of the change here*/
-  color: #000;
-  text-decoration: none;
-  }
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    transition: 0.8s;
+    color: #FFFFFF;
+    box-shadow: 0 0 20px #9309ae;
+    border-radius: 10px;
+    border: 1px solid #99939300;
+    vertical-align: top;
+}
+button2 {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    transition: 0.8s;
+    background-size: 200% auto;
+    color: #FFFFFF;
+    box-shadow: 0 0 20px #9309ae;
+    border-radius: 10px;
+    border: 1px solid #99939300;
+    vertical-align: top;
+}
+button:hover {
+    background-position: right center; /* change the direction of the change here*/
+    color: #FFFFFF;
+    text-shadow: 0 0 15px #ffffff;
+    box-shadow: 0 0 20px #9f42ed;
+}
